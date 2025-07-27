@@ -29,6 +29,7 @@ Analyze the Uber Fares Dataset to uncover insights into fare trends, ride patter
 - Converted `pickup_datetime` to proper `datetime` format
 - Removed obvious outliers (e.g., negative fares)
 - Exported the cleaned file as: `uber_cleaned_enhanced.csv`
+  ![Da creation](cl.png)tabase
 
 ---
 
@@ -43,14 +44,17 @@ Analyze the Uber Fares Dataset to uncover insights into fare trends, ride patter
 | Min          | -$52.00 |
 | Max          | $499.00 |
 
+![Da creation](eda.png)tabase
+
 ### 🔹 Correlations
 | Variables           | Correlation |
 |---------------------|-------------|
 | Fare vs Hour        | -0.021      |
 | Fare vs Month       | +0.024      |
+![Da creation](cor.png)tabase
 
 ### 🔹 Visualizations
-![Da creation](dash.png)tabase
+![Da creation](dash.png)
 
 ---
 
@@ -63,6 +67,8 @@ Created new variables:
 ---
 
 ## 📈 4. Power BI Dashboard
+### Loading Data
+![Da creation](load.png)
 
 ### ✅ Dashboard Includes:
 - Fare amount histogram
