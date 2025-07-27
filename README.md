@@ -45,7 +45,7 @@ Analyze the Uber Fares Dataset to uncover insights into fare trends, ride patter
 | Median       | $8.50   |
 | Min          | -$52.00 |
 | Max          | $499.00 |
-![Da creation](summ.png)
+
 
 ![Da creation](eda.png)
 
@@ -54,7 +54,7 @@ Analyze the Uber Fares Dataset to uncover insights into fare trends, ride patter
 |---------------------|-------------|
 | Fare vs Hour        | -0.021      |
 | Fare vs Month       | +0.024      |
-![Da creation](cor.png)tabase
+![Da creation](cor.png)
 
 ### 🔹 Visualizations
 ![Da creation](visual.png)
@@ -80,7 +80,7 @@ Created new variables:
 - Peak vs Off-peak analysis
 - Time series trends of fare amounts
 - Consistent formatting and business-focused insights
-  ![Da creation](dash.png)tabase
+  ![Da creation](dash.png)
 
 📁 **Power BI File**: [`Uber_Analytics.pbix`](./Uber_Analytics.pbix)
 
