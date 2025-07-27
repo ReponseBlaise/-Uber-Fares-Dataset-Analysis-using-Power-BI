@@ -23,7 +23,7 @@ Analyze the Uber Fares Dataset to uncover insights into fare trends, ride patter
 ---
 
 ## 🧼 1. Data Loading and cleaning
-![Da creation](pload.png)tabase
+![Da creation](pload.png)
 
 
 **Performed using Python:**
@@ -31,7 +31,7 @@ Analyze the Uber Fares Dataset to uncover insights into fare trends, ride patter
 - Converted `pickup_datetime` to proper `datetime` format
 - Removed obvious outliers (e.g., negative fares)
 - Exported the cleaned file as: `uber_cleaned_enhanced.csv`
-  ![Da creation](cl.png)tabase
+  ![Da creation](cl.png)
 
 ---
 
@@ -45,9 +45,9 @@ Analyze the Uber Fares Dataset to uncover insights into fare trends, ride patter
 | Median       | $8.50   |
 | Min          | -$52.00 |
 | Max          | $499.00 |
-![Da creation](summ.png)tabase
+![Da creation](summ.png)
 
-![Da creation](eda.png)tabase
+![Da creation](eda.png)
 
 ### 🔹 Correlations
 | Variables           | Correlation |
