@@ -13,13 +13,6 @@ Analyze the Uber Fares Dataset to uncover insights into fare trends, ride patter
 
 - **Source**: [Kaggle - Uber Fares Dataset](https://www.kaggle.com/)
 - **Size**: 200,000 records
-- **Attributes**:
-  - `fare_amount`
-  - `pickup_datetime`
-  - `pickup/dropoff latitude & longitude`
-  - `passenger_count`
-
----
 
 ## 🧰 Tools Used
 
@@ -57,9 +50,7 @@ Analyze the Uber Fares Dataset to uncover insights into fare trends, ride patter
 | Fare vs Month       | +0.024      |
 
 ### 🔹 Visualizations
-- **[Fare Distribution Histogram](./fare_distribution.png)**
-- **[Boxplot: Fare by Peak/Off-Peak](./fare_by_peak_hour.png)**
-- **[Fare vs Hour Scatter](./fare_vs_hour.png)**
+![Da creation](dash.png)tabase
 
 ---
 
@@ -74,33 +65,17 @@ Created new variables:
 ## 📈 4. Power BI Dashboard
 
 ### ✅ Dashboard Includes:
-- Fare amount histogram & box plot
+- Fare amount histogram
 - Ride patterns by hour, day, and month
 - Peak vs Off-peak analysis
 - Time series trends of fare amounts
-- Optional: geographic distribution of pickups
-
-### 🎯 Dashboard Highlights:
-- Interactivity via slicers (hour, month, passenger count)
-- Drill-down for deeper exploration
 - Consistent formatting and business-focused insights
+  ![Da creation](dash.png)tabase
 
 📁 **Power BI File**: [`Uber_Analytics.pbix`](./Uber_Analytics.pbix)
 
----
 
-## 📸 5. Process Documentation
-
-| Stage | Screenshot |
-|-------|------------|
-| Data Loading | `./screenshots/data_load.png` |
-| Cleaning | `./screenshots/data_cleaning.png` |
-| Feature Engineering | `./screenshots/feature_engineering.png` |
-| Dashboard Building | `./screenshots/dashboard_build.png` |
-
----
-
-## 📝 6. Key Insights
+## 📝 5. Key Insights
 
 - Majority of fares are between **$5–$15**
 - Peak hours show slightly **higher average fares**
@@ -109,7 +84,7 @@ Created new variables:
 
 ---
 
-## 💡 7. Recommendations
+## 💡 6. Recommendations
 
 - Increase driver availability during **evening hours and weekends**
 - Optimize pricing during **peak hours**
